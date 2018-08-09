@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./c3.min.css" rel="stylesheet" type="text/css">
+  <link href="./styles.css" rel="stylesheet" type="text/css">
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="./c3.min.js"></script>
+  <script src="../apiKey.js"></script>
+  <script src="../city.list.js"></script>
+  <!-- <script src="https://cdn.rawgit.com/github/fetch/master/fetch.js"></script> -->
+  
+  <title>5 Day Forecast</title>
+</head>
+<body>
+  <form onSubmit="handleSubmit()">
+    <label for="zipcodeOrCity">Search by Zip Code OR City: </label>
+    <input name="zipcodeOrCity" id="zipcodeOrCity" required>
+    <input type="submit" value="Get Weather!">
+  </form>
+  <div id="chart"></div>
+  <script src="./scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+form {
+  text-align: center;
+  margin: 10%;
+}
+
+input,
+#zipcodeOrCity {
+  margin: 0 10px;
+}
